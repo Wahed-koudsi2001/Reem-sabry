@@ -544,7 +544,7 @@ header.main-header .header-sticky.active {
 	margin: 0 10px;
 	position: relative;
 }
-.navbar-expand-lg .navbar-nav .nav-link .lang{
+.navbar-expand-lg .navbar-nav .nav-link .lang {
 	width: 32px;
 }
 .main-menu ul li a {
@@ -1093,7 +1093,7 @@ header.main-header .header-sticky.active {
 /************************************/
 
 .about-us {
-	padding: 0 0 100px 0;
+	padding: 100px 0;
 }
 
 .about-us-image-box {
@@ -2878,7 +2878,6 @@ header.main-header .header-sticky.active {
 	background: var(--accent-color);
 	padding: 25px 0;
 	z-index: 1;
-	margin-bottom: 100px;
 }
 
 .scrolling-ticker-box {
@@ -3198,12 +3197,12 @@ header.main-header .header-sticky.active {
 /************************************/
 /*** 	 17. About Us Page css 	  ***/
 /************************************/
-
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+	color: var(--accent-color);
+}
 .page-header {
 	position: relative;
-	background: url("../images/page-header-bg.jpg") no-repeat;
-	background-position: center center;
-	background-size: cover;
+	background: url("../images/page-header-bg.webp") no-repeat center center/cover;
 	padding: 275px 0 170px;
 }
 
@@ -5240,11 +5239,8 @@ header.main-header .header-sticky.active {
 	width: 100%;
 	max-width: 30px;
 	transition: all 0.4s ease-in-out;
-	z-index: 1;
-}
-
-.contact-info-item:hover .icon-box img {
 	filter: brightness(0) invert(1);
+	z-index: 1;
 }
 
 .contact-info-item-content {
@@ -5951,7 +5947,7 @@ header.main-header .header-sticky.active {
 	}
 
 	.about-us {
-		padding: 0 0 50px 0;
+		padding: 50px 0;
 	}
 
 	.about-body-item {
